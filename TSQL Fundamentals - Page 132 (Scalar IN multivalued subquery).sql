@@ -1,6 +1,6 @@
 USE TSQL2012;
 
-SELECT orderid, empid
+SELECT orderid
 FROM Sales.Orders
 WHERE empid IN
 	(SELECT E.empid
