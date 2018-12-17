@@ -1,0 +1,5 @@
+USE TSQL2012;
+
+SELECT n
+FROM dbo.Nums
+WHERE n BETWEEN 1 and 10;
